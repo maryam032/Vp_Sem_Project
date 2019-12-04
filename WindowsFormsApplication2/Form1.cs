@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace WindowsFormsApplication2
 {
     public partial class Form1 : Form
@@ -44,7 +46,9 @@ namespace WindowsFormsApplication2
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            Form2 fm = new Form2();
+            fm.Show();
+            this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -68,6 +72,21 @@ namespace WindowsFormsApplication2
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_2(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
