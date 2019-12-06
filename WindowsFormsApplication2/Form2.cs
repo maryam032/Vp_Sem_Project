@@ -60,5 +60,10 @@ namespace WindowsFormsApplication2
             Form1 fm = new Form1();
             fm.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = true;
+        }
     }
 }
