@@ -141,6 +141,33 @@
   <ItemGroup>
     <None Include="Resources\instructions.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decision-64 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-no-video-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no-video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decision-64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video-call-64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

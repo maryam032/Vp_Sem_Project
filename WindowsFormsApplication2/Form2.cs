@@ -5,7 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks; 
 using System.Windows.Forms;
 using AForge.Video;
 using AForge.Video.DirectShow;
@@ -64,6 +64,16 @@ namespace WindowsFormsApplication2
         private void button1_Click(object sender, EventArgs e)
         {
             panel1.Visible = true;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
